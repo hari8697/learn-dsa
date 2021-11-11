@@ -16,4 +16,19 @@ def binary_search(list, target):
 
 list = [1, 2, 3, 4, 5, 6, 7, 8]
 
-print(binary_search(list, 8))
+
+def verify(result):
+    print('Target exists at:', result)
+
+
+result = binary_search(list, 0)
+verify(result)
+
+result = binary_search(list, 8)
+verify(result)
+
+result = binary_search(list, 1)
+verify(result)
+
+result = binary_search(list, 12)
+verify(result)
