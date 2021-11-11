@@ -21,6 +21,7 @@ def verify(result):
     print('Target exists at:', result)
 
 
+
 result = binary_search(list, 0)
 verify(result)
 
