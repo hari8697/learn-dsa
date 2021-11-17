@@ -13,7 +13,6 @@ def recursive_binary_search(list, target):
                 return recursive_binary_search(list[:midpoint], target)
 
 
-
 list = [1, 2, 3, 4, 5, 6, 7, 8]
 
 
