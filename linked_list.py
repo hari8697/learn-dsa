@@ -1,6 +1,3 @@
-from typing import Counter
-
-
 class Node:
     """
     An object for storing a single node of a linked list.
